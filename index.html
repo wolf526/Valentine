@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Valentine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8bbd0; /* Phông nền màu hồng */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .heart-btn {
+            font-size: 5rem;
+            cursor: pointer;
+            color: #ff4081;
+            background: none;
+            border: none;
+            transition: transform 0.3s;
+        }
+        .heart-btn:hover {
+            transform: scale(1.2);
+        }
+        .message {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="heart-btn" onclick="alert('Chúc Mừng Valentine!')">❤️</button>
+        <div class="message">Chúc Mừng Valentine, Bé Yêu! ❤️</div>
+    </div>
+</body>
+</html>
