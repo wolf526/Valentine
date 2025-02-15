@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #FF69B4 !important; /* Màu hồng */
+            background-color: #ff00d5 !important; /* Màu hồng */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,7 +20,7 @@
             text-align: center;
             padding: 50px;
             border-radius: 10px;
-            background-color: #ffffff;
+            background-color: ##ff00d5;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
 
