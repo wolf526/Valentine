@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ff00d5 !important; /* Màu hồng */
+            background-color: #ff00d5; /* Màu hồng */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,7 +20,7 @@
             text-align: center;
             padding: 50px;
             border-radius: 10px;
-            background-color: ##ff00d5;
+            background-color: #ffffff;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -78,7 +78,7 @@
 <body>
     <div class="container">
         <button class="heart-btn" onclick="showFireworks()">❤️</button>
-        <div class="message">Chúc Mừng Valentine, Bé Yêu! ❤️</div> <!-- Giữ lại dòng chữ -->
+        <div class="message">Chúc Mừng Valentine, Bé Yêu! ❤️</div> 
     </div>
 
     <div class="fireworks" id="fireworks"></div>
