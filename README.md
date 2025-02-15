@@ -7,7 +7,10 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ff00f7; /* Phông nền màu hồng */
+            body {
+    background-color: #FF69B4 !important;
+}
+
             display: flex;
             justify-content: center;
             align-items: center;
